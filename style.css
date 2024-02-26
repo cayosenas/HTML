@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(147, 120, 223);
+}
+
+#container{
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px; 
+    width: 1000px; 
+    margin: auto; 
+    margin-top: 100px; 
+    border: outset rgb(0, 0, 0) 1px; 
+    padding: 30px; 
+}
+
+#buttons{
+    text-align: center; 
+    display: grid;
+    grid-template: auto / auto auto;
+}
+
+button{
+    font-size: 1rem; 
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    border-radius: 50px; 
+}
+
+
+button:hover{
+    background-color: rgb(87, 97, 185); 
+    cursor: pointer; 
+}
+
+
+label{
+    font-size: 2rem; 
+}
+
+
+h1{
+    text-align: center; 
+}
